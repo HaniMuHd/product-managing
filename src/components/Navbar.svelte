@@ -27,7 +27,7 @@
 				dark:hover:text-blue-400 hover:scale-105 {pageUrl === '/' ? 'text-blue-600 dark:text-blue-400' : ''}">
 				Home
 			</NavLi>
-			<NavLi
+			<!-- <NavLi
 				href="/products"
 				class="text-lg font-medium transition-all duration-300 hover:text-blue-600
 				dark:hover:text-blue-400 hover:scale-105 {pageUrl === '/products' ? 'text-blue-600 dark:text-blue-400' : ''}">
@@ -38,7 +38,7 @@
 				class="text-lg font-medium transition-all duration-300 hover:text-blue-600
 				dark:hover:text-blue-400 hover:scale-105 {pageUrl === '/about' ? 'text-blue-600 dark:text-blue-400' : ''}">
 				About
-			</NavLi>
+			</NavLi> -->
 			<NavLi>
 				<DarkMode
 					class="hover:bg-gray-100/50 dark:hover:bg-gray-700/50 p-2 rounded-lg transition-colors

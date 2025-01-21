@@ -13,7 +13,7 @@
 				by="Product Manager™"
 				year={currentYear}
 				class="text-gray-600 dark:text-gray-400" />
-			<FooterLinkGroup
+			<!-- <FooterLinkGroup
 				ulClass="flex flex-wrap items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
 				<FooterLink
 					href="/about"
@@ -35,7 +35,7 @@
 					class="hover:text-gray-900 dark:hover:text-white transition-colors">
 					Contact
 				</FooterLink>
-			</FooterLinkGroup>
+			</FooterLinkGroup> -->
 		</div>
 	</div>
 </Footer>
