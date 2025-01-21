@@ -1,22 +1,23 @@
 <script lang="ts">
+	import { products } from '$lib/stores/Products';
 	import ProductGrid from '../components/products/ProductGrid.svelte';
-	let { products } = $props();
+	import type { PageProps } from './$types';
+
+	const { data }: PageProps = $props();
+	$effect(() => {
+		products.set(data.products ?? []);
+	});
 </script>
 
 <style>
 	main {
 		max-width: 1200px;
 		margin: 0 auto;
-		padding: 2rem 1rem;
+		padding: 4rem 1rem;
 	}
 
-	h1 {
-		text-align: center;
-		margin-bottom: 2rem;
-	}
 </style>
 
-<main>
-	<h1>Our Products</h1>
-	<ProductGrid {products} />
+<main >
+	<ProductGrid />
 </main>

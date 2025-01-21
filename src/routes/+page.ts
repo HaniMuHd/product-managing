@@ -5,6 +5,7 @@ import type { PageLoad } from './$types';
 export const load: PageLoad = async () => {
 	try {
 		const products = await ProductService.getApiProduct();
+		console.log(products);
 		return {
 			products
 		};
